@@ -1,0 +1,158 @@
+:root {
+  --mainColor : #252734;
+  --secondaryColor : #333646;
+  --acsentColor : #FF9100;
+}
+
+body {
+        background-color: var(--mainColor);
+        min-height: 900px;
+        font-family: 'ubuntu', sans-serif;
+}
+
+
+section h1 {
+
+            color: #ffff;
+            font-size: 2.5 rem;
+}
+
+/* Navbar */
+.nav-link.active {
+    color: var(--acsentColor) !important
+    
+}
+
+
+/*  End Navbar */ 
+
+/* Hero */
+.color-acsent{
+
+            color: var(--acsentColor)
+
+}
+
+#hero {
+        color: #ffff;
+        min-height: 100vh;
+}
+
+
+#hero h1 {
+        
+        font-size: 3rem;
+}
+
+
+#hero h2 {
+        
+        font-weight: 300;
+}
+
+
+
+#hero p {
+    font-size: 1.1rem;   
+    font-weight: 300;
+}
+
+/* CTA */
+.btn-custom1 {
+    background-color: var(--acsentColor);
+    text-align: center;
+    color: #fff;
+    min-width: 150px;
+    height: 45px;
+    font-weight: 700px;
+    font-size: 1.2rem;
+}
+
+
+.btn-custom1:hover {
+
+    box-shadow: 0 0 5px rgba(255, 166, 0, .8);
+}
+
+.social-icon svg {
+
+    margin-right: .7em;
+    margin-bottom: 10px;
+}
+
+.social-icon-footer svg{
+    margin-top: 7em;
+    margin-bottom: 10px;
+}
+
+
+/* End Hero */
+
+/* About */
+
+hr{
+
+    width: 30%;
+    height: 5px;
+    color: var(--acsentColor);
+    margin: 0 auto;
+    opacity: 100%;
+}
+
+#about {
+    min-height: 300px;
+    width: 100%;
+    background-color:  var(--acsentColor);
+    color: #fff;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    margin-bottom: 80px;
+
+}
+
+
+
+/* End About /*
+
+
+/* skill */
+
+#skill {
+
+
+    min-height: 600px;
+    width: 100%;
+    color: #fff;
+
+}
+
+#skill img {
+    width: 12%;
+    margin: 10px;
+
+}
+
+/* End Skill /*
+
+/* sertifikat */
+
+#sertifikat {
+    margin-top: 70px;
+    padding: 70px;
+    padding-bottom: 80px;
+    background-color: var(--secondaryColor);
+}
+
+#sertifikat p, a {
+
+    color: !important;
+    text-decoration: none;
+
+}
+
+#sertifikat img{
+    width: 49%;
+    padding: 10px;
+}
+
+/* Sertifikat /*
